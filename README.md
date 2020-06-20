@@ -17,7 +17,7 @@ We can compare this to the results that we would have recieved from the command 
 
 ![Command Line Example](/resource/CommandLineExample.png)
 
-and we can see that they are identical! I will work on adding more documentation to the functionalities in the future, however, everything can be found in the control software, under help>Command Help>"Command Name". Any other functionality is related to converting a LabVIEW data type to an Igor Pro data type.
+and we can see that they are identical! For using other commands, you should research what the commands do using the Asylum Control Software, which can be found at under help>Command Help>"Command Name". I will work on adding more documentation tothe functions in the future, however, you should always double check the documentation listed in the Asylum Control Software, and of course, double check the command syntax using the Debug Mode.
 
 ### Using the Debug Mode
 I have included a Debug Mode. This is useful for checking over higher level commands and seeing what is actually being sent to the software without actually sending anything to the software. It is also useful for when you don't have the command software installed on a computer, but still want to write code on that computer. 
@@ -28,5 +28,12 @@ To use the Debug Mode, simply wire a true value to the Asylum_OpenRefnum.vi Debu
 
 ## Contact
 joe.albro@levylab.org
+
+## Contributing 
+All newly added features should not break current unit tests, and should also have their own unit tests created before writing. Contact joe.albro@levylab.org if you want to contribute.
+
 ## License
-This is licensed under a BSD 3 clause license.
+This is licensed under a BSD 3 clause license. See the LICENSE file for more details.
+
+## Repository Location
+https://github.com/Monkeymerlot/Asylum-API
