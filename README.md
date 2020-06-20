@@ -10,6 +10,7 @@ Now that I got that out of the way, lets run through a simple command that only 
 
 Now that we have the functionality to open and close the reference to the Igor Pro Software, let's get the XOP version of the software. This does not interact with the instrument, so it is a good first command to send with very little consequence. You can try this command using the command panel in the Asylum Igor Pro Software. The command that we generate in LabVIEW is the same as typing `print td_XopVersion()` in the command panel. All that we have added is some functionality to return the value to LabVIEW. So once you understand what is going on, lets place the function Asylum_XOPVersion.vi onto the block diagram. You want to wire the reference from 
 Asylum_OpenRefnum.vi into Asylum_XOPVersion.vi, and wire the output reference from Asylum_XOPVersion.vi into Asylum_CloseRefnum.vi, like so:
+
 ![Basic Example](/resource/ExampleUse.png)
 
 
