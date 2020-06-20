@@ -13,7 +13,9 @@ Asylum_OpenRefnum.vi into Asylum_XOPVersion.vi, and wire the output reference fr
 
 ![Basic Example](/resource/ExampleUse.png)
 
+We can compare this to the results that we would have recieved from the command line:
 
+![Command Line Example](/resource/CommandLineExample.png)
 
 ## Contact
 joe.albro@levylab.org
