@@ -124,9 +124,10 @@
 				<Item Name="TestXopVersion.vi" Type="VI" URL="../Tests/Tests/TestXopVersion.vi"/>
 			</Item>
 			<Item Name="Waves" Type="Folder">
+				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="Asylum_SetInWave.vi" Type="VI" URL="../Waves/Asylum_SetInWave.vi"/>
-				<Item Name="Asylum_SetInWavePair.vi" Type="VI" URL="../Waves/Asylum_SetInWavePair.vi"/>
 				<Item Name="Asylum_SetOutWave.vi" Type="VI" URL="../Waves/Asylum_SetOutWave.vi"/>
+				<Item Name="Asylum_SetInWavePair.vi" Type="VI" URL="../Waves/Asylum_SetInWavePair.vi"/>
 				<Item Name="Asylum_SetOutWavePair.vi" Type="VI" URL="../Waves/Asylum_SetOutWavePair.vi"/>
 				<Item Name="Asylum_SetSTFC.vi" Type="VI" URL="../Waves/Asylum_SetSTFC.vi"/>
 				<Item Name="Asylum_StopInWaveBank.vi" Type="VI" URL="../Waves/Asylum_StopInWaveBank.vi"/>
