@@ -17,6 +17,15 @@ We can compare this to the results that we would have recieved from the command 
 
 ![Command Line Example](/resource/CommandLineExample.png)
 
+and we can see that they are identical! I will work on adding more documentation to the functionalities in the future, however, everything can be found in the control software, under help>Command Help>"Command Name". Any other functionality is related to converting a LabVIEW data type to an Igor Pro data type.
+
+### Using the Debug Mode
+I have included a Debug Mode. This is useful for checking over higher level commands and seeing what is actually being sent to the software without actually sending anything to the software. It is also useful for when you don't have the command software installed on a computer, but still want to write code on that computer. 
+To use the Debug Mode, simply wire a true value to the Asylum_OpenRefnum.vi Debug Mode (F) input. Then, instead of sending commands to the AFM, it will put them in the very useful LabVIEW utility Debug Window.vim:
+
+![Debug Mode](/resource/DebugMode.png)
+
+
 ## Contact
 joe.albro@levylab.org
 ## License
