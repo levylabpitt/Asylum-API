@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-02 20:21:57" Modified_Date="2020-06-19 22:41:04" Creator="Joe Albro" Comments="" ID="34f30521d4c3bfe9ce4c3669222372b0">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-02 20:21:57" Modified_Date="2022-05-19 21:19:12" Creator="Joe Albro" Comments="" ID="8bdb4bbe2f4c5256d0987a3d201b08bd">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Asylum_AFM_API</Package_File_Name>
-    <Library_Version>1.0.0.3</Library_Version>
+    <Library_Version>1.0.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\packages</Library_Output_Folder>
@@ -32,7 +32,9 @@
       <Copyright/>
       <Packager/>
       <URL>https://github.com/Monkeymerlot/Asylum-API</URL>
-      <Release_Notes>Added a way to set a debug mode that wont send commands to the instrument, but rather would open up the Debug window.</Release_Notes>
+      <Release_Notes>Fixed formatting for SetPISLoop
+Fixed formatting for Callback String in the SetInWave(Pair)
+Better handling of the reference in debug mode (no longer will attempt to open a communication with Igor at all in debug mode)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -350,7 +352,7 @@
         <Path>..\lvsrc\Asylum_SendIgorCommand.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>085E2211BF49DC8B71B9BF225744772D</GUID>
+      <GUID>5E1C27DD79BC4AC0756F52181A984A07</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -805,7 +807,7 @@
         <Path>..\lvsrc\BuildFunctions\Build_Asylum_XopVersion.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E704C9EF439F4B91664C07ADFAE39C03</GUID>
+      <GUID>D09A25D9BAF8A120F1CF7BA6AD179CD9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -980,7 +982,7 @@
         <Path>..\lvsrc\Controller\Asylum_XOPVersion.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C09C01656A138AFD30A827951D139FD5</GUID>
+      <GUID>DB7CBBB5F56D6978A08680AB97F102FC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1057,7 +1059,7 @@
         <Path>..\lvsrc\Group\Asylum_WriteGroup.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>510026111DF21A8EFB823D8BEF7AE1D7</GUID>
+      <GUID>E9D7E85A31870B833459B26E8E97A317</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1120,7 +1122,7 @@
         <Path>..\lvsrc\Igor Data\Asylum_EnsureIgorStringFormat.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>59D91BBB0F5729090A58772431428ECE</GUID>
+      <GUID>CCCCD11783A1165BD36A8F7D86986A86</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1169,7 +1171,7 @@
         <Path>..\lvsrc\PISLoop\Asylum_StopPISLoop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BE622DA4C7BD31E51923E1F5A3C8C027</GUID>
+      <GUID>213A89051851FB187B4EEBC6ADBE8FA7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1274,7 +1276,7 @@
         <Path>..\lvsrc\Read Write Values\Asylum_WriteValue.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A7B6F908280AF60EEBDD0CD2AC89E279</GUID>
+      <GUID>D8DB778BB7DB03AE99A3D7C7C6641446</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1323,7 +1325,7 @@
         <Path>..\lvsrc\Tests\Tests</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CCB7E2F6182998241E865293912B5907</GUID>
+      <GUID>C0C91BE4F031478B8794AC4EAF97EFA5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1456,7 +1458,7 @@
         <Path>..\lvsrc\Waves\Asylum_StopSTFC.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BD470583679CE501BF452B9C85DB79D9</GUID>
+      <GUID>D650440D5BD7A11E65AC8FE2B23B3512</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1505,7 +1507,7 @@
         <Path>..\lvsrc\Igor Data\LVArraytoIgorWave\StringArraytoIgorWave.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0C973BFE9DFDDC19B0B19A7618653015</GUID>
+      <GUID>BA8202DBD2783B79A6E938C206EE72EF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1540,7 +1542,7 @@
         <Path>..\lvsrc\Tests\mock\DebugModeSingleton.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5B43E6E8B8DBCE9ECEAA91F4EFA2C679</GUID>
+      <GUID>64E610742F4316070D3C2080CAAE3917</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -2051,7 +2053,7 @@
         <Path>..\lvsrc\Tests\Tests\TestXopVersion.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9B2F8C3B96514B7259215BC64E22D0A3</GUID>
+      <GUID>7E5F19AAB28AC8F71664F63608EF84E1</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
