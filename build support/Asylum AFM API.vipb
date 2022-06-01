@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-02 20:21:57" Modified_Date="2022-05-31 17:53:45" Creator="Joe Albro" Comments="" ID="db7fcce11143791efd644b0135665896">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-02 20:21:57" Modified_Date="2022-05-31 20:10:37" Creator="Joe Albro" Comments="" ID="aa8c48a73c593cf3693d984fa8826112">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Asylum_AFM_API</Package_File_Name>
-    <Library_Version>1.0.0.5</Library_Version>
+    <Library_Version>1.0.0.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\packages</Library_Output_Folder>
@@ -32,7 +32,8 @@
       <Copyright/>
       <Packager/>
       <URL>https://github.com/Monkeymerlot/Asylum-API</URL>
-      <Release_Notes>Resave for LV 2019</Release_Notes>
+      <Release_Notes>Added additonal check in the EnsureIgorFormatting
+Now handles empty strings (test added),  " to ""</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -350,7 +351,7 @@
         <Path>..\lvsrc\Asylum_SendIgorCommand.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4682B76CF5C1BCA12EEAF7D176FA4B58</GUID>
+      <GUID>8E321EB40102D43B094841F6C9E13AB2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -805,7 +806,7 @@
         <Path>..\lvsrc\BuildFunctions\Build_Asylum_XopVersion.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CB16CA25C0F706E36D35E87729381E00</GUID>
+      <GUID>C2C5304548481889EF1A85B983CB4111</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -980,7 +981,7 @@
         <Path>..\lvsrc\Controller\Asylum_XOPVersion.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>238C0CC444F78EABA2BBDD279704CE10</GUID>
+      <GUID>69CCF53001D262D084E429C33753C7C4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1057,7 +1058,7 @@
         <Path>..\lvsrc\Group\Asylum_WriteGroup.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EBFCA8090238C6A534D7E25EFA21E293</GUID>
+      <GUID>156674366E8DE4940B2842F3BFD87283</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1120,7 +1121,7 @@
         <Path>..\lvsrc\Igor Data\Asylum_EnsureIgorStringFormat.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>56DC1336565051FD0DE0FBBF00F2C280</GUID>
+      <GUID>1682358B9DBE6C18CBBA16D8925DFC6E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1169,7 +1170,7 @@
         <Path>..\lvsrc\PISLoop\Asylum_StopPISLoop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EC3D0AA36BE9CF28D9186138B7A61B3B</GUID>
+      <GUID>74DA02913EE24970AF7189327B206A0E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1274,7 +1275,7 @@
         <Path>..\lvsrc\Read Write Values\Asylum_WriteValue.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DDD36965BED90D9A432D2F56093C4897</GUID>
+      <GUID>4F709101E9BF01999F52D43FE3BAEB86</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1323,7 +1324,7 @@
         <Path>..\lvsrc\Tests\Tests</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A316CB59598C18A4D163EF1A466ECC0B</GUID>
+      <GUID>EB3B9C20715833E15F0A21D1AB7038CB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1456,7 +1457,7 @@
         <Path>..\lvsrc\Waves\Asylum_StopSTFC.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6F60B3FF150DBE407BB8496C99B1FE9B</GUID>
+      <GUID>28C4DD9BF2AFFCA209E78720205AB939</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1505,7 +1506,7 @@
         <Path>..\lvsrc\Igor Data\LVArraytoIgorWave\StringArraytoIgorWave.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0500B1038B4E069AB1EFF8DA51B9C002</GUID>
+      <GUID>A026C5AD20105E7D3ABA6F8F3A5F9478</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1540,7 +1541,7 @@
         <Path>..\lvsrc\Tests\mock\DebugModeSingleton.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D5DB1D831BABCE205795858EC55BDC8B</GUID>
+      <GUID>47FFCFF8E463489811E87034C1EA8FD6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -2051,7 +2052,7 @@
         <Path>..\lvsrc\Tests\Tests\TestXopVersion.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2F06CE105A68CFE648FEB5A5EB09E975</GUID>
+      <GUID>FC0DBB8C6E49217BAA464289C26DAD8E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
