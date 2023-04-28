@@ -79,18 +79,19 @@
 			</Item>
 			<Item Name="Tests" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
+				<Item Name="RunTests.vi" Type="VI" URL="../Tests/Tests/RunTests.vi"/>
 				<Item Name="TestAsylumMethods.vi" Type="VI" URL="../Tests/Tests/TestAsylumMethods.vi"/>
+				<Item Name="TestGeneralSyntax.vi" Type="VI" URL="../Tests/Tests/TestGeneralSyntax.vi"/>
+				<Item Name="TestNoParameterFunctions.vi" Type="VI" URL="../Tests/Tests/TestNoParameterFunctions.vi"/>
+				<Item Name="TestGetLabel.vi" Type="VI" URL="../Tests/Tests/TestGetLabel.vi"/>
 				<Item Name="TestBuildPISLoop.vi" Type="VI" URL="../Tests/Tests/TestBuildPISLoop.vi"/>
 				<Item Name="TestCaptureImage.vi" Type="VI" URL="../Tests/Tests/TestCaptureImage.vi"/>
 				<Item Name="TestControllerReset.vi" Type="VI" URL="../Tests/Tests/TestControllerReset.vi"/>
 				<Item Name="TestDate.vi" Type="VI" URL="../Tests/Tests/TestDate.vi"/>
-				<Item Name="TestGeneralSyntax.vi" Type="VI" URL="../Tests/Tests/TestGeneralSyntax.vi"/>
 				<Item Name="TestGetDevices.vi" Type="VI" URL="../Tests/Tests/TestGetDevices.vi"/>
 				<Item Name="TestGetGroupLabels.vi" Type="VI" URL="../Tests/Tests/TestGetGroupLabels.vi"/>
 				<Item Name="TestGetGroupRanges.vi" Type="VI" URL="../Tests/Tests/TestGetGroupRanges.vi"/>
-				<Item Name="TestGetLabel.vi" Type="VI" URL="../Tests/Tests/TestGetLabel.vi"/>
 				<Item Name="TestGetRange.vi" Type="VI" URL="../Tests/Tests/TestGetRange.vi"/>
-				<Item Name="TestNoParameterFunctions.vi" Type="VI" URL="../Tests/Tests/TestNoParameterFunctions.vi"/>
 				<Item Name="TestReadGroup.vi" Type="VI" URL="../Tests/Tests/TestReadGroup.vi"/>
 				<Item Name="TestReadString.vi" Type="VI" URL="../Tests/Tests/TestReadString.vi"/>
 				<Item Name="TestReadValue.vi" Type="VI" URL="../Tests/Tests/TestReadValue.vi"/>
@@ -138,6 +139,7 @@
 				<Item Name="Build Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - Traditional__ogtk.vi"/>
 				<Item Name="Build Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path__ogtk.vi"/>
 				<Item Name="Cluster to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Cluster to Array of VData__ogtk.vi"/>
+				<Item Name="DebugModeSingleton.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/private/DebugModeSingleton.vi"/>
 				<Item Name="Delete Elements from 1D Array (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (Boolean)__ogtk.vi"/>
 				<Item Name="Delete Elements from 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (CDB)__ogtk.vi"/>
 				<Item Name="Delete Elements from 1D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (CSG)__ogtk.vi"/>
@@ -278,6 +280,11 @@
 				<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
 				<Item Name="Get Waveform Type Enum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from Data__ogtk.vi"/>
 				<Item Name="Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from TD__ogtk.vi"/>
+				<Item Name="Igor_ArraytoIgorWave.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/API/Igor_ArraytoIgorWave.vi"/>
+				<Item Name="Igor_EnsureIgorStringFormat.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/private/Igor_EnsureIgorStringFormat.vi"/>
+				<Item Name="Igor_NumericArraytoIgorWave.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/private/Igor_NumericArraytoIgorWave.vi"/>
+				<Item Name="Igor_SendCommand.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/API/Igor_SendCommand.vi"/>
+				<Item Name="Igor_StringArraytoIgorWave.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/private/Igor_StringArraytoIgorWave.vi"/>
 				<Item Name="List Directory Recursive__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/List Directory Recursive__ogtk.vi"/>
 				<Item Name="List Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/List Directory__ogtk.vi"/>
 				<Item Name="Parse String with TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Parse String with TDs__ogtk.vi"/>
@@ -408,6 +415,8 @@
 				<Item Name="Strip Path Extension - String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - String__ogtk.vi"/>
 				<Item Name="Strip Path Extension__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension__ogtk.vi"/>
 				<Item Name="Strip Units__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Strip Units__ogtk.vi"/>
+				<Item Name="TestArraytoWave.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/Tests/TestArraytoWave.vi"/>
+				<Item Name="TestEnsureIgorStringFormat.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Igor API/Tests/TestEnsureIgorStringFormat.vi"/>
 				<Item Name="Trim Whitespace (String Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String Array)__ogtk.vi"/>
 				<Item Name="Trim Whitespace (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String)__ogtk.vi"/>
 				<Item Name="Trim Whitespace__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace__ogtk.vi"/>
@@ -421,6 +430,10 @@
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="Assert Complex Numeric Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Complex Numeric Type.vim"/>
+				<Item Name="Assert Fixed-Point Numeric Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Fixed-Point Numeric Type.vim"/>
+				<Item Name="Assert Floating-Point Numeric Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Floating-Point Numeric Type.vim"/>
+				<Item Name="Assert Integer Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Integer Type.vim"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Caraya Interactive Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/menu/Caraya Interactive Menu.rtm"/>
 				<Item Name="Caraya.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/Caraya.lvlib"/>
@@ -428,6 +441,7 @@
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Debug Log.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Debug Log/Debug Log.lvlib"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
@@ -499,14 +513,6 @@
 				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="DebugModeSingleton.vi" Type="VI" URL="../Tests/mock/DebugModeSingleton.vi"/>
-			<Item Name="Igor_ArraytoIgorWave.vi" Type="VI" URL="../Igor Data/Igor_ArraytoIgorWave.vi"/>
-			<Item Name="Igor_EnsureIgorStringFormat.vi" Type="VI" URL="../Igor Data/Igor_EnsureIgorStringFormat.vi"/>
-			<Item Name="Igor_NumericArraytoIgorWave.vi" Type="VI" URL="../Igor Data/LVArraytoIgorWave/Igor_NumericArraytoIgorWave.vi"/>
-			<Item Name="Igor_SendCommand.vi" Type="VI" URL="../Igor_SendCommand.vi"/>
-			<Item Name="Igor_StringArraytoIgorWave.vi" Type="VI" URL="../Igor Data/LVArraytoIgorWave/Igor_StringArraytoIgorWave.vi"/>
-			<Item Name="TestArraytoWave.vi" Type="VI" URL="../Tests/Tests/TestArraytoWave.vi"/>
-			<Item Name="TestEnsureIgorStringFormat.vi" Type="VI" URL="../Tests/Tests/TestEnsureIgorStringFormat.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
