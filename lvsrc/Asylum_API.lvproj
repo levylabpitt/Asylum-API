@@ -3,6 +3,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -12,6 +13,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="build support" Type="Folder">
+			<Item Name="Asylum AFM API.vipb" Type="Document" URL="../../build support/Asylum AFM API.vipb"/>
+			<Item Name="Asylum AFM API.vipc" Type="Document" URL="../../build support/Asylum AFM API.vipc"/>
+		</Item>
 		<Item Name="AsylumAPI" Type="Folder">
 			<Item Name="BuildFunctions" Type="Folder">
 				<Item Name="Build_Asylum_CaptureImage.vi" Type="VI" URL="../BuildFunctions/Build_Asylum_CaptureImage.vi"/>
