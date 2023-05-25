@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-02 20:21:57" Modified_Date="2023-04-28 16:18:35" Creator="Joe Albro" Comments="" ID="0d3345c20c7fe487ecc045309d22e828">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-02 20:21:57" Modified_Date="2023-05-25 12:10:22" Creator="Joe Albro" Comments="" ID="fb628b1ac585c246fb085a0811a39086">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Asylum_AFM_API</Package_File_Name>
-    <Library_Version>1.0.1.2</Library_Version>
+    <Library_Version>1.0.2.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\packages</Library_Output_Folder>
@@ -48,11 +48,8 @@
       <Copyright/>
       <Packager>Joe Albro, Patrick Irvin</Packager>
       <URL>https://github.com/levylabpitt/Asylum-API</URL>
-      <Release_Notes>[1.0.1.1]
-- Igor-specific functions are now stored in the Igor-API package dependency (Issues #5, #8, #9)
-  - note that some of these functions have new names (e.g. Asylum_OpenRefnum.vi --&gt; Igor_OpenRefnum.vi)
-- EnsureStringFormat icon updated (Issue #7)
-- package install location and palette location now consistent with other LevyLab-related packages</Release_Notes>
+      <Release_Notes>[1.0.2]
+- Issue #11: Add function "Get Value", which will read from the Global Variables table. Note that this is distinct from "Read Value"</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -315,7 +312,7 @@
         <Path>..\lvsrc\Tests</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7C3A3A5D73D48F992555F213404EC697</GUID>
+      <GUID>8A1436625BCCF01D279B1DB9AD399991</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -770,7 +767,7 @@
         <Path>..\lvsrc\BuildFunctions\Build_Asylum_XopVersion.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>92C7124F8CB483B9B83DA3EBFA681F3B</GUID>
+      <GUID>74220A1FC0DBD89A9A208CC5C6D4CD51</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -945,7 +942,7 @@
         <Path>..\lvsrc\Controller\Asylum_XOPVersion.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0C84D0E8806C7DE763C688EBF3C63F38</GUID>
+      <GUID>DBA00DB54B3FA4CD55653343982D890F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1022,7 +1019,7 @@
         <Path>..\lvsrc\Group\Asylum_WriteGroup.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ED3F2AF593C85D325896EB4682C1D3E7</GUID>
+      <GUID>1DE810D20A692E7B2A9A894FB477A02D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1071,15 +1068,15 @@
         <Path>..\lvsrc\PISLoop\Asylum_StopPISLoop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E6138F4CA0F9A533B97B9D627FAAEB0B</GUID>
+      <GUID>32E8BBF83A55892489E13654FE82A62B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
       <Name>Read Write Values</Name>
       <View_Format>Icons</View_Format>
       <Size>
-        <Height_Row>1</Height_Row>
-        <Width_Col.>6</Width_Col.>
+        <Height_Row>3</Height_Row>
+        <Width_Col.>4</Width_Col.>
       </Size>
       <_256_Color_Icon>0000078C002900000012000000020000000D00FFFFFF000100000000000A0000000800000000002000200028000001610000013B000000090007001800180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000FFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000000000FFFFFFFFFFFF000000000000000000000000FFFFFFFFFFFF000000000000000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFF000000FFFFFFFFFFFF000000000000FFFFFFFFFFFF000000000000FFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0001C003A467CEABA8ABA66700010028000001990000016500080008000F001900180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFFFFFFFFFFFFFF000000000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFFFFFFFF000000000000000000000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00007FFF88507FFFAB197FFFAA53FFFFAA527FFF5249FFFF00007FFF002800000202000001CE001000050017001B00180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFF000000FFFFFFFFFFFF000000000000FFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000000000000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000000000000000FFFFFF000000000000FFFFFF000000000000000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000000000FFFFFFFFFFFF000000000000FFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000003FFA08003FFA6948FFFAA95DBFFEA9507FF464CDBFF000003FF002900000012000000020000000D00CCCCFF000100000000000A00000008001900000020002000280000022C000001F8001900040020001C00180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FF9AAA26FF92AA55FF9ABA76FF939255FFD91356FF000000FF</_256_Color_Icon>
       <BW_Color_Icon>00000000</BW_Color_Icon>
@@ -1095,12 +1092,82 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Asylum_GetLabel.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Asylum_GetValue.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
           <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\lvsrc\Read Write Values\Asylum_GetValue.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Asylum_ReadValue.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\lvsrc\Read Write Values\Asylum_ReadValue.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Asylum_ReadString.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\lvsrc\Read Write Values\Asylum_ReadString.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Asylum_WriteString.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\lvsrc\Read Write Values\Asylum_WriteString.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Asylum_WriteValue.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\lvsrc\Read Write Values\Asylum_WriteValue.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Asylum_GetLabel.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\lvsrc\Read Write Values\Asylum_GetLabel.vi</Path>
@@ -1114,69 +1181,13 @@
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
-          <Column>2</Column>
+          <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\lvsrc\Read Write Values\Asylum_GetRange.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Asylum_ReadString.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\Read Write Values\Asylum_ReadString.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Asylum_ReadValue.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\Read Write Values\Asylum_ReadValue.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Asylum_WriteString.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\Read Write Values\Asylum_WriteString.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Asylum_WriteValue.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\Read Write Values\Asylum_WriteValue.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <GUID>BC02FF3FDBADC550D8D0700B019CF5D2</GUID>
+      <GUID>35897B64CE85DBBD34B1C154C144A903</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1225,7 +1236,7 @@
         <Path>..\lvsrc\Tests\Tests</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D1BF9A9175C285591FBFC6D0C6830A94</GUID>
+      <GUID>B44BB7ACB6DB8BEB63E665A25A3B48DA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1358,7 +1369,7 @@
         <Path>..\lvsrc\Waves\Asylum_StopSTFC.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6D9E0D3E3F1092DD3F6DE6C14DB2AD24</GUID>
+      <GUID>73C3896CECB791F077F62AC69285C459</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -1379,7 +1390,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>Tests\mock</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <GUID>84387BC1A7CAD6ABB42EE564527781DC</GUID>
+      <GUID>9A762965B93CEA3D73F88C55B5029C06</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -1862,7 +1873,7 @@
         <Path>..\lvsrc\Tests\Tests\TestXopVersion.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9DF69A4F0041586FF02D26D561858E39</GUID>
+      <GUID>34509CD64C8CFB138433EBE535E40875</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
