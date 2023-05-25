@@ -50,6 +50,7 @@
 				<Item Name="Build_Asylum_WriteString.vi" Type="VI" URL="../BuildFunctions/Build_Asylum_WriteString.vi"/>
 				<Item Name="Build_Asylum_WriteValue.vi" Type="VI" URL="../BuildFunctions/Build_Asylum_WriteValue.vi"/>
 				<Item Name="Build_Asylum_XopVersion.vi" Type="VI" URL="../BuildFunctions/Build_Asylum_XopVersion.vi"/>
+				<Item Name="Build_Asylum_GetValue.vi" Type="VI" URL="../BuildFunctions/Build_Asylum_GetValue.vi"/>
 			</Item>
 			<Item Name="Controller" Type="Folder">
 				<Item Name="Asylum_CaptureImage.vi" Type="VI" URL="../Controller/Asylum_CaptureImage.vi"/>
@@ -81,6 +82,7 @@
 				<Item Name="Asylum_ReadValue.vi" Type="VI" URL="../Read Write Values/Asylum_ReadValue.vi"/>
 				<Item Name="Asylum_WriteString.vi" Type="VI" URL="../Read Write Values/Asylum_WriteString.vi"/>
 				<Item Name="Asylum_WriteValue.vi" Type="VI" URL="../Read Write Values/Asylum_WriteValue.vi"/>
+				<Item Name="Asylum_GetValue.vi" Type="VI" URL="../Read Write Values/Asylum_GetValue.vi"/>
 			</Item>
 			<Item Name="Tests" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
@@ -118,6 +120,7 @@
 				<Item Name="TestWriteString.vi" Type="VI" URL="../Tests/Tests/TestWriteString.vi"/>
 				<Item Name="TestWriteValue.vi" Type="VI" URL="../Tests/Tests/TestWriteValue.vi"/>
 				<Item Name="TestXopVersion.vi" Type="VI" URL="../Tests/Tests/TestXopVersion.vi"/>
+				<Item Name="TestGetValue.vi" Type="VI" URL="../Tests/Tests/TestGetValue.vi"/>
 			</Item>
 			<Item Name="Waves" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
